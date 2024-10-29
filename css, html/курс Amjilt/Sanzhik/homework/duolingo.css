@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    height: 2000px;
+}
+
+img{
+    object-fit: cover;
+}
+
+*{
+    margin: 0;
+}
+.boxd{
+    display: flex;
+}
+.duolingo-img{
+    width: 80px;
+    position: sticky;
+    align-items: center;
+    top: 30px;
+}
+.box-1{
+    text-align: center;
+    font-size: 25px;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+}
+.box-2{
+    background-color: chartreuse;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    margin-top: 20px;
+    gap: 12px;
+    max-width: 330px;
+    width: 100%;
+    display: inline;
+}
+.box-3{
+    background-color: white;
+    color: blue;
+    font-family: 'Inter', sans-serif;
+    border-style: solid;
+    border-color: rgb(246, 239, 226);
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+    gap: 12px;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+    flex-direction: column;
+    position: absolute;
+}
+.box-2, .box-3{
+    text-align: initial;
+    user-select: auto;
+    box-sizing: inherit;
+    outline: none;
+    text-align: center;
+}
+
+.box-2:hover{
+    background-color: rgb(89, 0, 255);
+}
+.languare-box12{
+    width: 1000px;
+    height: 450px;
+}
+.qorap{
+    width: 600px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    margin: 100px;
+    justify-items: auto;
+    justify-content: center;
+    flex-direction: row;
+}
+.qorap2{
+    width: 90%;
+    height: 90%;
+    display: inline-block;
+}
+.qorap4{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+.items{
+    border: 2px solid rgb(255, 0, 0);
+    display: flex;
+    width: 600px;
+    height: 250px;
+    justify-content: center;
+    justify-items: end;
+    align-items: center;
+    margin: 10px;
+}
+.kino-tizimders{
+    display: flex;
+    column-gap: 5px;
+}
+.kino{
+    width: 300px;
+    height: 300px;
+}
+.kino img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.til{
+    width: 100px;
+    height: 100px;
+}
+.til img{
+    flex-basis: 100%;
+    height: 30%;
+    object-fit: cover;
+}
+.til-tizim{
+    display: flex;
+    justify-content: space-around;
+}
+.tiltizim{
+    display: flex;
+    margin: 30px 15px;
+    color: brown;
+    background-color: rgb(18, 228, 15);
+    flex-grow: inherit;
+    padding: 10px;
+    justify-content: start;
+}
+.duol-media{
+    width: 560px;
+    height: 350px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    object-fit: cover;    
+    margin-top: 200px;
+    background-color: blue;
+    color: yellow;
+}
+.duol-mp4{
+    border-radius: 10px;
+    width: 560px;
+    height: 350px;
+}
+.videod{
+        width: 600px;
+        height: 400px;
+        object-fit: cover;
+        margin-left: 50px;
+}
+.duol-video{
+    width: 400px;
+    height: 300px;
+    position: absolute;   
+    z-index: -1;
+}
+.duol-content{
+    color: white;
+    padding: 60px 70px;
+    width: 40%;
+}
+.text-duol{
+    margin: 20px 0;
+}
+.btn{
+    margin-top: 20px;
+}
+.navbar{
+    width: 400px;
+    height: 300px;
+    margin-top: 100px;
+    background-color: brown;
+    text-align: center;
+    border-radius: 300px;
+    margin-left: 200px;
+    animation: myAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.navbar:hover{
+    background-color: rgb(0, 179, 255);
+    padding: 20px;
+    font-size: 20px;
+}
+@keyframes myAnimation {
+
+
+    30%{
+        padding: 0;
+        color: rgb(255, 0, 0);
+    }
+    65%{
+        padding: 30px;
+        color: rgb(238, 255, 0);
+    }
+    
+    100%{
+        padding: 100px;
+        color: rgb(0, 255, 64);
+    }
+    
+    }

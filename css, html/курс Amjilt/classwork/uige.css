@@ -1,0 +1,86 @@
+:root{
+    --svettus: orange;
+    --sveti: green;
+    --tus: red;
+    --tusu: blue;
+    --svet: yellow;
+    --olshem: 400px;
+    --qarpy-font: 22px;
+    --qarpy-font-bold: 28px;
+    --text-cont: center;
+    --justify-cont: space-between;
+    --discont: flex;
+    --svetteu: black;
+    --svettt: white;
+}
+.conta{
+    color: var(--svet);
+    width: var(--olshem);
+    font-size: clamp(1rem, 2vw, 2rem);
+    height: var(--olshem);
+    background-color: var(--tusu);
+}
+.contai{
+    color: var(--tusu);
+    width: var(--olshem);
+    font-size: clamp(1rem, 2vw, 2rem);
+    height: var(--olshem);
+    background-color: var(--svettus);
+}
+.contain{
+    color: var(--tus);
+    width: var(--olshem);
+    font-size: clamp(1rem, 2vw, 2rem);
+    height: var(--olshem);
+    background-color: var(--svet);
+}
+.containe{
+    color: var(--sveti);
+    width: var(--olshem);
+    font-size: clamp(1rem, 2vw, 2rem);
+    height: var(--olshem);
+    background-color: var(--svettt);
+}
+.container{
+    color: var(--svettus);
+    width: var(--olshem);
+    font-size: clamp(1rem, 2vw, 2rem);
+    height: var(--olshem);
+    font-size: var(--qarpy-font-bold);
+    background-color: var(--svetteu);
+}
+.containers{
+    display: var(--discont);
+    justify-content: var(--justify-cont);
+    text-align: var(--text-cont);
+}
+@media(max-width: 1250px){
+    div{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media(max-width: 768px){
+    div{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media(max-width: 576px){
+    div{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media(max-width: 480px){
+    div{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media(max-width: 360px){
+    div{
+        width: 400px;
+        height: 400px;
+    }
+}

@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+ }
+ .qorapp{
+    width: 80%;
+    height: 600px;
+    margin: 80px;
+    border: 2px dashed black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: auto auto auto; */
+ }
+ 
+ .item{
+    border: 2px solid red;
+    background-color: red;
+    font-size: 35px;
+ }
+ 
+ /* .qorap2{
+    background-color: blueviolet;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+ }
+ 
+ .qorap3{
+   background-color: chartreuse;
+   grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+ }
+ 
+ .qorap4{
+    background-color: cornflowerblue;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+ } */
+ 
+ .qorap2{
+    background-color: blueviolet;
+ }
+ 
+ .qorap3{
+    background-color: chartreuse;
+ }
+ 
+ .qorap4{
+    background-color: cornflowerblue;
+ } 
+ 
+ .qorap5{
+    background-color: yellow;
+ }
+ 
+ .qorap6{
+    background-color: blue;
+ }
+ 
+ /* Ультрабук */
+ @media(max-width:1250px){
+ 
+ }
+ 
+ /* Планшет */
+ @media (max-width:768px){
+    .qorapp{
+       grid-template-columns: repeat(2, 1fr);
+    }
+ }
+ 
+ /* Телефон */
+ @media(max-width:576px){
+    .qorapp{
+       grid-template-columns: repeat(1, 1fr);
+    }
+}
+.container{
+    display: grid;
+    border: 2px solid black;
+}

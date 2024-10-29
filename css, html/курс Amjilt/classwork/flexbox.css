@@ -1,0 +1,87 @@
+.item{
+    width: 200px;
+}
+.qorap1{
+    background-color: red;
+    border: 2px solid black;
+}
+.qorap2{
+    background-color: greenyellow;
+    border: 2px solid black;
+}
+.qorap3{
+    background-color: blue;
+    border: 2px solid black;
+}
+.qorap4{
+    background-color: purple;
+    border: 2px solid black;
+}
+.qorap5{
+    background-color: orange;
+    border: 2px solid black;
+}
+.qorap6{
+    background-color: yellow;
+    border: 2px solid black;
+}
+@media(max-width: 768px){
+    .qorap{
+        width: 1000px;
+        height: 450px;
+        margin: 80px;
+        border: 2px dashed black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 50px;
+        column-gap: 50px;
+        justify-content: space-between;
+    
+    }
+}
+@media(max-width: 576px){
+    .qorap{
+        width: 1000px;
+        height: 450px;
+        margin: 80px;
+        border: 2px dashed black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 50px;
+        column-gap: 50px;
+        justify-content: space-between;
+    
+}    
+}
+    @media(max-width: 768px){
+        .qorap{
+            width: 1000px;
+            height: 450px;
+            margin: 80px;
+            border: 2px dashed black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            row-gap: 50px;
+            column-gap: 50px;
+            justify-content: space-between;
+        
+        }
+}
+    @media(max-width: 576px){
+        .qorap{
+            width: 1000px;
+            height: 450px;
+            margin: 80px;
+            border: 2px dashed black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            row-gap: 50px;
+            column-gap: 50px;
+            justify-content: space-between;
+        
+        }    
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="kz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BURGER</title>
+    <link rel="stylesheet" href="dok.css">
+</head>
+<body>
+    <form action="">
+        <h1>Бургер тапсырыс беру формасы</h1> <br><br>
+        <label for="name">Есіміңіз</label> <br>
+        <input type="text" pattern="[A-Za-z0-9]{5,10}" placeholder="Есіміңізді жазыңыз" required> <br><br> 
+
+        <label for="">нөміріңіз</label><br>
+        <input type="tel" pattern="[0-9]{11}" placeholder="8(7..)......."> <br><br>
+
+        <label for="BURGER">Бургерді таңдаңыз</label><br>
+        <select class="burs" name="name" id=""><br><br>
+            <option value="">...</option>
+            <option value="">Чизбургер</option>
+            <option value="">Итальяндық бургер</option> 
+            <option value="">Екіқабатты бургер</option> </select> <br><br>
+
+                 <p class="spe">Соус таңдаңыз</p> 
+                 <input class="bru" type="radio" name="birtop" value="muzhskoi" checked>
+                 <label class="bru" for="">Сырный</label><br>
+                 <input class="bru" type="radio" name="birtop" value="zhenskiy">
+                 <label class="bru" for="zhenskiy">Кетчуп</label><br>                 
+                 <input class="bru" type="radio" name="birtop" value="zhenskiy">
+                 <label class="bru" for="zhenskiy">Барбекью</label><br><br>
+                 <button>Заказать</button> 
+    </form>
+</body>
+</html>

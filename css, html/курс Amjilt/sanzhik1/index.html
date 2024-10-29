@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="name">Аты жөніңіз</label>
+        <input type="text" pattern="[A-Za-z0-9]{5,10}" placeholder="Аты жөніңіз" required> <br> <br>
+
+        <label for="email">email</label><br><br>
+        <input type="email" name="esim" placeholder="emailynyz@gmail.com" required><br><br>
+
+        <label for="jynys">пол</label><br>
+        <select name="jynys" id=""><br>
+            <option value="">мужской</option><br>
+            <option value="">женский</option><br>
+        </select> <br><br>
+        <strong>Түстер</strong> <br>
+        <input type="checkbox" name="blue">
+        <label for="blue">көк</label><br>
+        <input type="checkbox" name="red">
+        <label for="red">қызыл</label><br>
+        <input type="checkbox" name="yellow">
+        <label for="yellow">сары</label><br><br>
+
+
+        <strong>Жынысы</strong><br>
+        <input type="radio" name="birtop" value="muzhskoi" checked>
+        <label for="">Мужской</label><br>
+        <input type="radio" name="birtop" value="zhenskiy">
+        <label for="zhenskiy">Женский</label><br><br>
+        <h3>Фотоңыз</h3>
+        <input type="file"><br><br>
+        <label for="">Номер Телефона</label><br>
+        <input type="tel" pattern="[0-9]{11}"> <br><br>
+
+        <label for="">Жасыңыз</label><br>
+        <input type="number" min="12" max="40" step="3"> <br><br>
+        <input type="date"> <br><br>
+        <input type="range" min="0" max="100"><br><br>
+        <input type="color"><br><br>
+        <h3>Отзыв:</h3>
+        <textarea name="" rows="5" cols="50"></textarea><br><br>
+        <button>Жіберу</button>
+    </form>
+</body>
+
+</html>

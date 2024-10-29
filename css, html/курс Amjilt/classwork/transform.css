@@ -1,0 +1,66 @@
+.container {
+    border: 2px solid rgba(255, 0, 0, 0.981);
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    transition-duration: 0.5s;
+}
+.container:hover{
+    transform: rotate(-540deg) scale(0.5);
+    background-color: blue;
+    border-radius: 50%;
+}
+.container2{
+    border: 2px solid rgba(255, 0, 0, 0.981);
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    transition-duration: 0.5s;
+}   
+.container2:hover{
+    transform: rotate(66deg) translate(-200px, -200px) scale(0.5) skew(45deg);
+    background-color: rgb(255, 13, 0);
+    border-radius: 50%;
+}
+.container3{
+    border: 2px solid rgba(255, 0, 0, 0.981);
+    width: 700px;
+    height: 40px;
+    border-radius: 40px;
+    margin: 100px;
+}
+.container4{
+    background-color: red;
+    height: 100%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    animation-name: myAnimation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes myAnimation {
+
+    0%{
+        width: 10%;
+}
+    25%{
+        background-color: blue;
+        width: 25%;
+    }
+    50%{
+        background-color: green;
+        width: 50%;
+    }
+    75%{
+        background-color: yellow;
+        width: 75%;
+    }
+    100%{
+        background-color: purple;
+        width: 100%;
+    }
+}

@@ -1,0 +1,17 @@
+body{
+    background-color: brown;
+}
+
+.text{
+    font-size:15px;
+    font-family:'Times New Roman', Times,
+}
+
+#heading{
+    color: rgb(51, 0, 255);
+
+}
+img{
+    width: 100%;
+    height: auto;
+}

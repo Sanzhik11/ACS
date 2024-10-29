@@ -1,0 +1,13 @@
+table{
+    border-radius: 10px;
+    background-color: blueviolet
+}
+th, td{
+    border-radius: 10px;
+}
+th{
+    background-color: chocolate;
+}
+td{
+    background-color: cyan;
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+img{
+    object-fit: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 200em;
+    box-shadow: 24px 24px 8px 0px rgb(229, 245, 0);
+    border-style: dashed;
+    border-color: chocolate;
+}
+.zak{
+    background-color: chocolate;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    height: 20px;
+    width: 70px;
+}
+body{
+    margin-left: 30px;
+    margin-bottom: 50px;
+}

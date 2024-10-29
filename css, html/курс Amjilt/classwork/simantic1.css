@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+.box-1{
+    position: relative;
+    border: 2px solid rgb(255, 0, 0);
+    width: 200px;
+    height: 200px;
+}
+
+.text{
+    position: absolute;
+    width: 30px;
+    right: 60px;
+    bottom: -30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: skyblue;
+}

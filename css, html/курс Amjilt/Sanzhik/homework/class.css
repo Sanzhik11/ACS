@@ -1,0 +1,55 @@
+.header{
+    position: fixed;
+    background-color: #48B38F;
+    z-index: -1;
+    width: 100%;
+    height: 70px;
+}
+.logo{
+    color: white;
+}
+.qorap{
+    width: 10%;
+    height: 40%;
+    background-color: white;
+    object-fit: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+*{
+    margin-left: 100px;
+    margin: 50px;
+}
+img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+table{
+    border: 1px solid;
+    text-align: center;
+    margin-top: 500px;
+    background-color: white;
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+}
+th, td{
+    border: 1px solid;
+}
+.divkll{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+.divkl{
+    width: 200px;
+    height: 200px;
+}
+section{
+    margin-top: 700px;
+}

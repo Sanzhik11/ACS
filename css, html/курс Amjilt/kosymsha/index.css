@@ -1,0 +1,33 @@
+/* body{
+    background-color: bisque;
+}
+.kurs{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    line-height: 25em;
+}
+
+.txt{
+    color: rgb(188, 35, 35);
+}
+img{
+    border: 1px red solid;
+    border-radius: 5px;
+    box-shadow: 37px 64px 35px 10px rgba(34, 60, 80, 0.57);
+} */
+
+a:link{
+    color: darkturquoise;
+}
+a:visited{
+    color: hotpink;
+}
+a:hover{
+    color: chartreuse;
+}
+a:active{
+    color: darkgreen;
+}
+a:focus{
+    background-color: black;
+}

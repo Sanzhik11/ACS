@@ -1,0 +1,21 @@
+table{
+    width: 600px;
+    margin-left: 300px;
+    padding: 10px;
+    background-color: cyan;
+    color: red;
+    border-radius: 10px;
+    letter-spacing: 1.1px;
+}
+th{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+td{
+    font-family: fantasy;
+}
+th:hover{
+    background-color: yellow;
+}
+td:hover{
+    background-color: rgb(230, 173, 210);
+}

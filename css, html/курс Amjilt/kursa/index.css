@@ -1,0 +1,31 @@
+/* a:link{
+    color: darkturquoise;
+}
+a:visited{
+    color: hotpink;
+}
+a:hover{
+    color: chartreuse;
+}
+a:active{
+    color: darkgreen;
+}
+a:focus{
+    background-color: black;
+} */
+
+.container{
+    width: 100px;
+    /* border: 2px dotted red; */
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 20px;
+    box-shadow: 30px 88px 20px 2px rgba(34, 60, 80, 0.2) inset;
+    text-align: center;
+}
+img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}

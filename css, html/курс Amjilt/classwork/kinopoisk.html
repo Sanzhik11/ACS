@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="kinopoisk.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="kino-logo">
+                <a href="">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTY0IiBoZWlnaHQ9IjM2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNTguODU5IDE4YzAtNS44ODkgMi45NTQtMTAuNiA4LjI4MS0xMC42IDUuMzI4IDAgOC4yODEgNC43MTEgOC4yODEgMTAuNiAwIDUuODktMi45NTQgMTAuNi04LjI4IDEwLjYtNS4zMjggMC04LjI4Mi00LjcxLTguMjgyLTEwLjZabTguMjgxIDcuNjZjMi4wNzIgMCAyLjk1NC0zLjUzNCAyLjk1NC03LjY1MiAwLTQuMTItLjg4OS03LjY1Mi0yLjk1NC03LjY1Mi0yLjA2NSAwLTIuOTU0IDMuNTMzLTIuOTU0IDcuNjUyLS4wMDcgNC4xMTguODgyIDcuNjUyIDIuOTU0IDcuNjUyWk0zLjg0MyA3Ljd2NS41OTZoLjI5NEw3Ljk4IDcuN2g1LjMybC03LjA5OCA2LjQ3NC4yOTQuMjkzTDE5LjUxIDcuNjkzdjQuNzExTDcuOTczIDE2LjUyM3YuMjkybDExLjUzNy0xLjAyOHY0LjQxOUw3Ljk3MyAxOS4xNzh2LjI5M2wxMS41MzcgNC4xMTh2NC43MTJMNi40OTYgMjEuNTI2bC0uMjk0LjI5MyA3LjA5OCA2LjQ3NEg3Ljk4bC0zLjg0My01LjU5NmgtLjI5NHY1LjU5NkgwVjcuNjg2aDMuODQzVjcuN1ptMTkuMjMgMEgyOC4xbC0uMjk0IDEyLjM2M2guMjk0TDM0LjAxNSA3LjdoNC40Mzh2MjAuNjA4aC01LjAyNmwuMjk0LTEyLjM2NGgtLjI5NEwyNy41MSAyOC4zMDloLTQuNDM4VjcuN1ptMjMuOTU1IDBoLTUuMDI2djIwLjYwOGg1LjAyNnYtOS4xM2g0LjEzN3Y5LjEzaDUuMDI2VjcuN2gtNS4wMjZ2Ny45NTJoLTQuMTM3VjcuN1ptNDUuMjUgMGgtMTQuMTl2MjAuNjA4aDUuMDI3VjExLjIzM2g0LjEzN3YxNy4wNzVoNS4wMjZWNy43Wm0yLjY2IDEwLjNjMC01Ljg4OSAyLjk1NC0xMC42IDguMjgyLTEwLjYgNS4zMiAwIDguMjgxIDQuNzExIDguMjgxIDEwLjYgMCA1Ljg5LTIuOTU0IDEwLjYtOC4yODEgMTAuNi01LjMyIDAtOC4yODItNC43MS04LjI4Mi0xMC42Wm04LjI4MiA3LjY2YzIuMDcyIDAgMi45NTQtMy41MzQgMi45NTQtNy42NTIgMC00LjEyLS44ODktNy42NTItMi45NTQtNy42NTItMi4wNzIgMC0yLjk1NCAzLjUzMy0yLjk1NCA3LjY1MiAwIDQuMTE4Ljg4MiA3LjY1MiAyLjk1NCA3LjY1MlpNMTE5LjE4NyA3LjdoLTUuMDI2djIwLjYwOGg0LjQzOGw1LjkxNi0xMi4zNjRoLjI5NGwtLjI5NCAxMi4zNjRoNS4wMjZWNy43aC00LjQzOGwtNS45MTYgMTIuMzYzaC0uMjk0bC4yOTQtMTIuMzYzWm0yMy42NjkgMTMuNTQxIDQuNzMyLjU4NWMtLjg4OSA0LjEyLTIuOTU0IDYuNzc0LTcuMzY0IDYuNzc0LTUuMzIgMC04LjAxNi00LjcxLTguMDE2LTEwLjYgMC01Ljg4OSAyLjY4OS0xMC42IDguMDE2LTEwLjYgNC4zMTcgMCA2LjQ3NSAyLjY0OSA3LjM2NCA2LjQ3NWwtNC43MzIgMS4xNzdjLS4yOTQtMi4wNjMtMS4xNTUtNC43MS0yLjYzMi00LjcxLTEuNzcxIDAtMi42ODkgMy41MzMtMi42ODkgNy42NTEgMCA0LjA5LjkxOCA3LjY1MiAyLjY4OSA3LjY1MiAxLjQ0OS4wMTUgMi4zMy0yLjM0MSAyLjYzMi00LjQwNFptMTEuODMtMTMuNTRoLTQuNzMydjIwLjYwN2g0LjczMnYtOS4xM2guMjk0bDMuNTQ5IDkuMTNIMTY0bC01LjE3Ny0xMC42TDE2My44NDkgNy43aC01LjAyNmwtMy44NDMgOS4xM2gtLjI5NFY3LjdaIiBmaWxsPSIjZmZmIi8+PC9zdmc+Cg=="
+                        alt="">
+                </a>
+            </div>
+            <div class="nav-box">
+                <a class="link" href="">
+                    <img src="https://avatars.mds.yandex.net/get-bunker/61205/7230b4c753cc9d0928a4802b1ae08ccf7cb7d245/orig"
+                        alt="">
+                    Онлайн кинотеатр
+                </a>
+                <a class="link" href="">
+                    <img src="https://kinopoisk-ru.clstorage.net/m14y6K266/1210dc-V/O8DTNOivR-p0RvvrV8vasyR5pWa7-Fg9x_N2pk5qHSVsPaHA_f9rtc_gSdyQDedg6Ag_y1qwGtKGlsO2gs2PQX-Up5EJG9eeRGK731OqOgZAeASmvjh4SLPitmd5aZ9mOs5yYz_dSAPbhA39JagTdZyN6l_vkZu25VVSgUc5HbfZIWMyTzglGwQm-UrXXFlTJ581lipKuRyx4vRVyZo9RRr_ooJ8bSgDqnZOSxfpE8c83bi8zgYY9dT0ZsK1aO3mSPMCQ37pROp2N_tqpf8IcaTuJ3a4abqe0zHUdWpaz0T4TXPyrHxIIJpGHJl2aOElvI4L3Jx3-LSE57YBF6sNxkohEqIPCVc55jQqmzZvmlBkftS3i5pZzvFjFKU5G8w0ybzz8K5fWhHY5y3a52kAtA6tyE6ONCpFNPZ08NdJDhaZ4IKyHGr02bXX6riXzdlTdS80R6qYqTxjsfYUeGoeNViPQAOMH-gjeqeOu-WqwKXOj8j_rrUoxKaFN4FEiS2H2GBBYnzLNKuFNXno5H65QiTvN8cpeLkesCDXlypK3jbozvOTba1Ig_vUbymliODEXW977D50eCY0NeXjtxp_lrrhU5B8GQaIVwTauWTNaML1HjYWSygqLdITxCfbuqwHqh0AMj8OWPH6Bj_59IkR9ewcKP_uFYiHpZWGYKXZ_4ZIYWDgzAnnu1Smuenl37vidXzF9bn5at6RUSQkKwvPxuhtIQJufjrhSkUOqdeKYpV_PwucHAf5h8YENqC3Gy0mG6NRET7JN4nklzqYlexL8TfN5-Y4OsjPcbOFtVvqjDZJfIDyDVyYo4hVvemnCnNkP79aHL9WGPf0FnSzZ8m_ZdmTwHE8q8RrRrbZS-dtiVGmfBR2ODiKX8ORdIWKqI9nWo3wsJx-ugI6RS5IlcoBFd8_Kn2sZZjHhTbnI7coPyUIwMMjHus3eZXU-PpU7WvzNa8GVJsJGi4yYcY32ItcFnqtcBAP3ijz-5ZuqTa7wqfPneifzcUKZzfm1xPWax80SOGww54756g3xSqKBb9ZIEYflrWpWkr906KltRqr7QTo33GyDZ8J88qkXcmEGaHU_73pTJ9VKMSktARxx9jdtPhi0HM_WwUpludbOsVuulE1jCfnKHiYnPNBdNRbiI3m6qyDsk2PmKAqRD65RUoCNY_suA6OF0vV9JUm8RW4XGXaYSMDvEmW2TU1WTlXfDrSFiwn1dmKeR0iQPV2WYseFYicwZI9PXowmievC-X4ItUvH1p8L4Urp6UlBSNHS-2VKpHgc1x4h9omx3pb5j9q8HY9p-ZbqWgPYXDkRbgpHkRbnRGgPZ-qYLh2P-kHSbOHnpyJbY13GeUGFreTB2kMRKgD4kE-y2coZRcr6LeOOcEWHFWFuQl4LyGBh3aZyC2nuk3y0J-cSMG4Bw4b5LkiF5yN6C4OpZhUhOSWEWd5LbYYoTNzXWtXaebFaqs0j9hB1C_35_kJiu0wEJRX-KvvhXnt4oC9DEjSe_dMudUIwVUd_Jp_3WY613TFxlGFeqx2SDDRMH57NHo0h0laNX-68zf-d3S72lt_AjM1d-v7DDTYD8GwLG_qcXnV3Kq3eMDHHPxLrO8XuLS0hycA1Uh_pJuywMGMCKTZJPeKuMf_iXGUHBe1irlpTsAQl3UbiDzXGW_x4K0uKBJZpm2YR0ggx0zsit6et5rVltYF02WJvoSZIOCjnCvWmXZnqKkl7aqTly7kFmqJS_1gULbFuastJ6i_QfC_3FpAqGT_6ua4csesnSg8_7TbBYbF98CHaD_3G7JSUM0oN8tnxqmKRq-YQnf_lMaZurgvUFI2tgn4zUW4j_HhL62YMqq3zrmXOsI1Xh-43r6HCIVUZyUCxcncBzpQcwPfSPfJprX663avyAEHHDa0GQgIjBJzVbRZu__0-m-yEs5PqlKrpVxJZrkjFG-vyA-edWkW9yc34-a6_JTKoJDR3WsE6wcWG9iGjjsg55zWxIuomtxxgBQ2SBjMd2rMwqMs3ZkQCaRO2lRJIsXNTjj8HEQ4RYUn5sJVaZxGmxNRYX7bZKp2ZQk6tAwYsdeNdjWJmtoe4dP3ZyhJLZeqLzPS_V2Y0Rn0b7mXKaNGP95Yr_81SYfGRcTQxNhtJMrA4OFdWUTqFVYbGVdsKhHmDuSGm0r7_UISxDW7Oc1UeL0QYS7cS8C7xn2ZpkiyhQ7uShyt1_qkJkeHoZWo_aV5ISCjLhmmmGV1mQnUHfvB5t83VItKuXwRQ_X1-7lNBmq-4hOOXmgxCYVtmNWYwTcezDjcXCYr9rRkdjKmyx02ykNyUd9513vmtCsIRcyawCQdF1U5myisckEktHrLHwaYzdHgXl-YULnVrak0CGD1rs3rTd126uf3N4YC17uelOoQQFM--aSLBKd4iUf-ekPUzRQUKYtYLSIzh-RouHwXe-6z8v09izF55U3rF5pBtGwP6Y6tVwkEpOeWszebLrU5I5GRvOrG6oRE2Fvnn-nDdF_FVZg5S01xIKZFOHtPNalukgIP_qjSurRNyreYM-dN_5rsHDZZF8Q3psDnul_mK-ERQk8ahXvWhzi65gxowaRN9IULC7p-0LKGlxs7PgYb_yOSv3670kplbihkuKDXPX07rv4kCEVH96ahd1httRqw0mIea9fbVPSIWoZ9WgA1X9aGmom6PPMDZiY7Gv-1Op1R0q0MSHHZdVw49fgA1B1dy84fZuk0pefHsRU6HGUIUYED3wsWqBfUqylmv_txJ902hfpKKjwB4TbUSsj_JHo_INCfbDsTe2VtiQRII_bszyvsXLb5htWkVEOHOr2nODBQQ66rl9iFNRl4tk4KwzcvF_c7uwi9IEK1xIjKzPS4fJGTX_0qI4vW7KvkCcCFf9xqbf5VaOVWJfazhHvuBxgRszAfyxVpxrSbCVefWJMlb1aXKorIHnPhN2Yaex30C9ywgY-uGeF4Be_IVSoxNE1OSe_dROgmxyTHo"
+                        alt="">
+                    Смотреть мультики
+                </a>
+                <div class="input-box">
+                    <input class="input" type="search" placeholder="Фильмы, сериалы, кино">
+                    <button class="input-btn">
+                        <img width="20px" height="20px" src="search.svg" alt="search">
+                    </button>
+                </div>
+            </div>
+            <div class="signIn-box">
+                <a class="silteme watch" href="">
+                    Смотреть кино бесплатно
+                </a>
+                <a class="silteme" href="">
+                    Войти
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="afisha">
+            <div class="afisha-video">
+                <video class="afisha-img" autoplay loop>
+                    <source width="100%" src="forsaj.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="afisha-content">
+                <img width="350px" src="https://avatars.mds.yandex.net/get-bunker/49769/7e0bd64fa5b84e91427662221e9a79eb42e5c11e/800x124" alt="">
+                <p class="text">Они ловят убийцу одновременно в прошлом и будущем. Новая экранизация легендарного советского детектива</p>
+                <p>В главных ролях:Владимир Вдовиченков, Алексей Гуськов, Сергей Газаров, Карина Андоленко, Ангелина Поплавская, Денис Нурулин</p>
+                <button class="btn"> <img src="https://avatars.mds.yandex.net/get-bunker/61205/7230b4c753cc9d0928a4802b1ae08ccf7cb7d245/orig"
+                    alt="">
+                        Смотреть
+                </button>
+            </div>
+        </section>
+        <section class="kinos">
+            <h2>Билеты в кино ></h2>
+            <div class="kino-tizimders">
+                <div class="kino tizimer-1">
+                    <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1898899/de98ddb8-a4ab-41b1-b78e-f576a3ecb4f2/300x450"
+                        alt="">
+                    <h4>Особенности национальной больницы</h4>
+                    <p>2024, драма,комедия</p>
+                </div>
+                <div class="kino tizimder-2">
+                    <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/10671298/66c91723-725d-476d-a2ca-98c5529150af/300x450"
+                        alt="">
+                    <h4>Говорит земля!</h4>
+                    <p>2024, комедия</p>
+                </div>
+                <div class="kino tizimer-3">
+                    <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/10703959/ae226486-b50e-4c75-aca4-47037c3fa449/300x450"
+                        alt="">
+                    <h4>Подземная бездна</h4>
+                    <p>ужасы</p>
+                </div>
+                <div class="kino tizimder-4">
+                    <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/10900341/261e5ecd-df7f-4141-b8fa-a265697271da/300x450"
+                        alt="">
+                    <h4>Последний день Земли</h4>
+                    <p>Фантастика, приключения</p>
+                </div>
+                <div class="kino tizimder-5">
+                    <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/10671298/f705ab5a-8687-4404-bb1c-13ac696ab2e3/300x450"
+                        alt="">
+                    <h4>Граф Монте-Кристо</h4>
+                    <p>Драма, триллер, мелодрама</p>
+                </div>
+                <div class="kino tizimder-6">
+                    <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/10703959/70cec61c-52db-4b6b-bc9e-8e4e2020553c/300x450"
+                        alt="">
+                    <h4>Трансформеры: Начало</h4>
+                    <p>мультфильм, фантастика, фэнтези, боевик, приключения, семейный</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

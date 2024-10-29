@@ -1,0 +1,23 @@
+body{
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.text{
+    font-size:19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#heading{
+    color: blueviolet;
+
+}
+.zeekrs{
+    width: 900px;
+    height: auto;
+}
+.Zeekr0{
+    width: 300px;
+    height: auto;
+}

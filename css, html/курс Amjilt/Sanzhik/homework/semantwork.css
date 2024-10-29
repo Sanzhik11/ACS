@@ -1,0 +1,29 @@
+header{
+    display: flex;
+    background-color: rgb(85, 0, 255);
+    padding: 30px 100px;
+}
+nav{
+    display: flex;
+}
+img{
+    object-fit: cover;
+}
+
+*{
+    margin: 0;
+}
+.duol{
+    font-family: inherit;
+}
+.start{
+    background-color: rgb(17, 255, 0);
+    color: white;
+    border-radius: 10px;
+}
+.account{
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    border-radius: 10px;
+    
+}

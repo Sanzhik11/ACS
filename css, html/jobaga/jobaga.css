@@ -1,0 +1,86 @@
+@import url('https://fonts.cdnfonts.com/css/futura-pt');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Добавлено для лучшего управления отступами */
+}
+
+body {
+    background-color: rgb(0, 255, 208);
+    min-height: 100vh; /* Заменено на min-height для адаптивности */
+    font-family: 'Futura PT', sans-serif;
+}
+
+.sagat-logo {
+    display: flex;
+    width: 100%;
+    height: 50px; /* Увеличено для лучшего восприятия */
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    background-color: silver;
+    z-index: 10; /* Добавлено для видимости поверх других элементов */
+}
+
+.sagat-select {
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+}
+
+.poisk {
+    width: 30px; /* Уменьшен размер для лучшего баланса */
+    height: 30px; /* Уменьшен размер для лучшего баланса */
+}
+
+.sagat-nav {
+    display: flex;
+    flex-direction: column; /* Сделано вертикальным для меньших экранов */
+    height: 100vh;
+}
+
+@media(min-width: 1025px) {
+    .sagat-nav {
+        flex-direction: row; /* Вертикальная компоновка для больших экранов */
+    }
+}
+
+.sagat-menu {
+    display: flex;
+}
+
+.muzhskie {
+    display: flex;
+    padding: 20px;
+}
+
+.muzh {
+    color: black;
+}
+
+.zhenskie {
+    padding-left: 50px;
+    color: red;
+}
+
+.sagat-section {
+    width: 70%;
+    height: auto; /* Автоматическая высота для адаптивности */
+    margin-top: 100px; /* Увеличено для учета фиксированного навигационного меню */
+}
+
+.sagat-mp {
+    width: 100%;
+    height: auto; /* Автоматическая высота для адаптивности */
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: silver; /* Добавлен фон для подвала */
+}

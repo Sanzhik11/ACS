@@ -1,0 +1,72 @@
+.jana-qorap{
+    width: 600px;
+    height: 900px;
+    margin: 80px;
+    border: 2px dashed black;
+    display: grid;
+    grid-template-columns: 200px 200px auto;
+    grid-template-rows: 150px 150px 150px;
+    gap: 15px;
+}
+.jana{
+    border: 2px solid rgb(248, 0, 0);
+    background-color: red;
+}
+.qorap-1{
+    background-color: blue;
+}
+.qorap-2{
+    background-color: green;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.qorap-3{
+    background-color: yellow;    
+    grid-column-start: 1;
+    grid-column-end: 3;
+}               
+.qorap-4{
+    background-color: orange;
+    grid-area: 2 / 3 / 4 / 4 ;
+}
+.qorap-5{
+    background-color: rgb(208, 0, 255);
+}
+.qorap-6{
+    background-color: rgb(0, 255, 255);
+}
+
+
+
+.qorapps{
+    width: 600px;
+    height: 480px;
+    margin: 80px;
+    border: 2px dashed black;
+    display: grid;
+    grid-template-columns: 200px 200px auto;
+    grid-template-rows: 150px 150px 150px;
+    gap: 15px;
+}
+.item{
+    border-radius: 10px;
+    background-color: rgb(29, 21, 255);
+}
+.qorapp1{
+    background-color: chartreuse;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.qorapp2{
+    background-color: rgb(255, 145, 0);
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.qorapp3{
+    background-color: rgb(0, 255, 208);
+}
+.qorapp4{
+    background-color: rgb(255, 0, 225);
+}

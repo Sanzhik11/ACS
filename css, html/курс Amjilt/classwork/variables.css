@@ -1,0 +1,55 @@
+:root{
+      --tus: yellow;
+      --olshem: 500px;
+      --bazalyq-font-olshemi: 22px;
+}
+.box{
+    width: clamp(200px, 50%, 500px);
+    height: var(--olshem);
+    background-color: var(--tus);
+}
+p{
+    font-size: var(--bazalyq-font-olshemi);
+    background-color: var(--tus);
+}
+/*  */
+p{
+    font-size: clamp(1rem, 2.5vw, 2.5rem);
+    background-color: var(--tus);
+}
+
+.grid{
+    background-color: turquoise;
+    display: flex;
+    justify-content: space-between;
+}
+.grid-item{
+    border: 1px dotted rgb(255, 5, 5);
+    width: calc(20% - 50px);
+}
+.minmax{
+    width: max(50%, 500px);
+    background-color: var(--tus);
+    border: 2px solid rgb(7, 7, 243);
+    height: 200px;
+}
+
+/* ультрабук */
+@media(max-width: 1250px){
+    p{
+        font-size: 18px;
+        background-color: var(--tus);
+    }
+}
+/* мобильная версия */
+@media(max-width: 768px){
+    p{
+        font-size: 16px;
+    }
+}
+/* планшетная версия */
+@media(max-width: 576px){
+    p{
+        font-size: 14px;
+    }
+}

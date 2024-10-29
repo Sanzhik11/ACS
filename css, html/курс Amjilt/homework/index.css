@@ -1,0 +1,31 @@
+
+body{
+    background-color: #eafaff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.progl{
+    width: 23%;
+    height: auto;
+}
+.pros{
+    width: 33.2%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color:#808080;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5em;
+    color: #f01e2c;
+}
+dd{
+    font-size: 16px;
+    line-height: 1.1em;
+    letter-spacing: 2px;
+}
+dt{
+    font-size: 16px;
+}

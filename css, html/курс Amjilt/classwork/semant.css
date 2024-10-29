@@ -1,0 +1,68 @@
+.green{
+    width: 150px;
+    height: 150px;
+    border: 2px solid yellow;
+    background-color: green;
+    position: relative;
+}
+.red{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(60, 0, 255);
+    background-color: red;
+    top: 50px;
+    left: 50px;
+}
+body{
+    height: 2000px;
+}
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.green:hover .red{
+    top: 0;
+    left: 0;
+}
+.text{
+    position: relative;
+    z-index: 1;
+    color: rgb(47, 0, 255);
+}
+*{
+    margin: 0;
+}
+
+body{
+    height: 2000px;
+    background-image: url(insta.png);
+}
+.image-insta{
+    width: 500px;
+    height: 500px;
+    background-image: url('insta.png');
+    position: relative;
+    color: white;
+    padding: 50px;
+}
+.sanzh{
+    position: absolute;
+}
+.Sanzhar{
+    color: white;
+    font-size: 50px;
+    border-radius: 20px;
+    background-color: chocolate;
+    text-align: center;
+    width: 2000px;
+}
+.Sanzhik{
+    position: sticky;
+    top: 50px;
+    z-index: 4;
+}

@@ -1,0 +1,51 @@
+*{
+    margin: 8px;
+}
+body{
+    background-color: chocolate;
+}
+button{
+    background-color: rgb(21, 107, 11);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 8px;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+}
+input{
+    border-radius: 8px;
+    width: 130px;
+    height: 30px;
+    margin: 8px;
+    color: azure;
+}
+.burs{
+    border-radius: 8px;
+    width: 130px;
+    height: 30px;
+}
+h1{
+    padding-left: 30px;
+    margin: 50px 0px 50px;
+    font-size: 30px;
+    color: rgb(46, 41, 41);
+}
+form{
+    padding: 10px;
+    opacity: 85%;
+}
+input:hover{
+    background-color: azure;
+    color: rgb(21, 107, 11);
+}
+.bru{
+    margin: 0px;
+    padding: 0px;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+.spe{
+    margin-left: 10px;
+}

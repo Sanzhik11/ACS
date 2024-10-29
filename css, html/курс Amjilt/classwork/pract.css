@@ -1,0 +1,17 @@
+:root{
+    --olshem: 200px;
+    --arasy: 20px;
+    --tus: #333;
+    --qaryp: 30px;
+    --shekara-tusy: #F2F2F2;
+
+}
+.container{
+    width: clamp(200px, 50%, 500px);
+    background-color: var(--shekara-tusy);
+    color: var(--tus);
+    padding: var(--arasy);
+    font-size: clamp(1rem,  1vw, 1.5rem);
+    height: var(--olshem);
+}
+

@@ -1,0 +1,20 @@
+img{
+width: 100px;
+    height: 100px; 
+    object-fit: cover;
+    border: 2px blue;
+    border-radius:5px ;
+    box-shadow: 5px 5px 59px -5px rgba(34, 60, 80, 0.6) inset;
+}
+    a:link{
+        color: rgba(255, 0, 0, 0);
+    }
+    a:visited{
+        color: hotpink;
+    }
+    a:hover{
+        color: chartreuse;
+    }
+    a:active{
+        color: darkgreen;
+    }

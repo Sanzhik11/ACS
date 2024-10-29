@@ -1,0 +1,28 @@
+.home{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 400%;
+    border-style: dashed;
+}
+.foto{
+    background-color: rgba(161, 170, 161, 0.938);
+    color: rgba(0, 0, 0, 0.866);
+    border-radius: 5px;
+    border-color: black;
+}
+.fotr{
+    background-color: rgb(22, 106, 26);
+    border-radius: 5px;
+    border-color: blue;
+}
+.snh{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.927);
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+input:hover{
+    background-color: rgb(20, 137, 7);
+}

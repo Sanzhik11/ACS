@@ -1,0 +1,34 @@
+@font-face{
+    font-family: 'GTEESTIP';
+    src: url('fonts/gteestiprodisplay_medium.otf');
+}
+*{
+    margin: 0;
+}
+
+.tapsyrma{
+    display: flex;
+    padding: 20px;
+    column-gap: 20px;
+    font-size: 19px;
+    background-color: yellow;
+    font-family: 'GTEESTIP';
+    position: fixed;
+}
+.tapsyrma:hover{
+    background-color: #fffcfc;
+    width: 100%;
+    height: 100%;
+
+}
+.tasimg{
+    width: 5%;
+}
+body{
+    background-color: yellow;
+    height: 2000px;
+}
+.tapsyrma-content{
+    font-family: 'GTEESTIP';
+
+}

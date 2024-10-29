@@ -1,0 +1,44 @@
+body{
+    height: 2000px;
+
+}
+.qorap{
+    border: 2px dashed #ff0000;
+    width: 650px;
+    height: 200px;
+    display: flex;
+    position: relative;
+}
+.qorap-1, .qorap-2, .qorap-3{
+    width: 220px;
+    height: 195px;
+    border: 2px solid #027c1b;
+}
+
+.qorap-1{
+    background-color: rgb(255, 0, 0);
+    position: fixed;
+}
+
+.qorap-2{
+    background-color: rgb(221, 255, 0);
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.qorap-3{
+    background-color: rgb(4, 141, 20);
+    position: absolute;
+    left: 70px;
+    bottom: 50px;
+}
+.text{
+    position: sticky;
+    top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+main{
+    margin: 0, 70px;
+}
